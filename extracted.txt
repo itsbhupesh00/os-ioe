@@ -1,0 +1,2794 @@
+
+
+===== file1.pdf =====
+
+
+--- Page 1 ---
+
+--- Page 2 ---
+
+--- Page 3 ---
+
+--- Page 4 ---
+
+
+===== file2.pdf =====
+
+
+--- Page 1 ---
+!r../i.rr\rr !\..r 
+I .tJriyle:r 
+I r-)l-: 
+i "t! tll.I.l!,till.tl$ 
+, dU 
+:
+Iixaminatiau C*ntrotr $ivision j i;&;;,u* , i1,,, 
+r,,,ss nt-"r.- i ,i -- 
+i
+i
+. 
+2{}{}3 Raistrnls.tr 
+I V;;;./r,.,.1' , iil i r- " 
+-i fi** 
+, i ti,:r. i
+..- . __. __: ----___-_----- - i
+]NSTIl.tJ"|.L,0}:l[i\jfi]NJ::i:1Il.i]\Cii,*,.*
+Suhject: - Operating Systems (CT 6tZ)
+L)andidate s are reclttired {o gitte lhcir nns'u,ers in their oyt,tl ttto{tl"t u,r "firr us ls,acticable.
+Art,,-,^t 
+,1 ll ,,",^,.t:,-.-,.
+Attempl All. qLLe st iltx,\.
+T'he.figures in the margin indicilte liul! Mqrks,
+Assume s'uitublc duta i/ wcas.tary.
+1.
+4.
+How does an operatitlg system acl as an extended machinc? Explain u,ith a1 example.
+What are the design tradeolls between monolithic and miclokernef ar:chitecture? 
+{4+4)
+Explain the significar:ce of the Process Control Block (PCB). For the given information
+of the processes, find average TAT, average WT, CPII utilization, ancl throughput
+according to FCI]S and SRTN algorirhrns. 
+[2+B]
+Process
+ArrivalTime
+Burst Time
+Prir:rity
+Pn
+1
+2
+I
+Irr
+2
+AT
+0
+P2
+0
+10
+J
+P:
+)
+I
+2
+V/hat is race condition? How do you solve prociucer-consumer problem using
+Semaphore? Explain with pser.rdo-code. 
+[1+6]
+Differentiate intemal fiagrnentation and external fi'agmenlation" I{ow many page-fault for
+LRU, FIFO and Optimal page replacement algorithms with the following;i""; reference
+string for three-page frames'.7,0,1,2,0,3,0,4,2,j,A3. 
+[3+6]
+Describe the contigttot-ts and linked list methods for'file ailocation. Explain the concept of
+inocles and their role in LINIX/LINUX File system. 
+[4+4]
+What are four necessary conditions of deacilock? Consicler the fullo.,ving snapshot of the
+system:
+[4+6]
+Is the system safe? ifso, show the safe sequence.
+7. Explain goalS of T/O soliware. A disk drive has 50 tracks, numbereci 0 to 4g. T he
+rcad/write head is cutrently serving a request at track 15 ancl it was at track 48 previously,
+andthequeueo{'pendingrequests,inFIFOordcris4,40, 1l,35, J,14.Whatisthetotal
+track movement for head for the follorving algorithn.rs: a) FCFS b) SSTF o) C-SCAN. 13+61
+Allocation
+Maximum
+Claim
+Available
+A
+B
+C
+D
+A
+B
+C
+D
+A
+B
+C
+D
+p0
+0
+0
+1
+a
+0
+0
+1
+2
+I
+5
+2
+0
+P1
+l
+0
+0
+0
+1
+7
+5
+0
+P2
+i
+)
+5
+4
+2
+J
+5
+6
+P3
+0
+6
+J
+2
+0
+6
+5
+2
+F4
+0
+0
+1
+4
+0
+6
+5
+6
+
+--- Page 2 ---
+TRIBHUVAN INIVERSITY
+INSTITUTE OF ENGTNEERIN(;
+j Exam.
+I
+I Level
+I
+Full Marks
+i Pass Marks
+Examination Control Division i Prograrnme BEI
+2082 Bhadra
+Anempt All questions.
+The.figures in the margin indicare Full Marks.
+iondidates ure required to give thiir answers in rheir oy n wttt ds
+Subject: - Operation Systems (t'T 612)
+'red to give their answers in their a\..n w-()rds as far as practicable.
+i
+1.
+Assume suitable data if necessary.
+Describe the functions of Operating System (OS) with examples. Differentiate monolithic
+Is+3]
+and microkemel structure of OS"
+Explain different states of a process. What are the diflerences between preemptive
+algorithms and non-preemptive algorithms for scheduling ol a processes? Consider the 
+/
+following set of processes
+[3+2'+5)
+Anival Time
+Draw Gantt chart and calculate average weighting time for each process using following
+algorithms:
+a) Shortest Remaining Time First
+b) r{RRN
+)" What is counting semaphores? Horv do 1'ou soh'c consumer producer problem using
+semaphore? Explain u.ith pseudo-code. 
+[1+6]
+4. Define logical and physical address. What is the importance of virtual memory? Consider
+the following page reference string with 3-page frames:
+[2+2+61
+1,2,3,4,2,\,5,6,2,L r2,3,7,6,3,2,1,2,3,6
+How many page faults will occur for FIFO, LRU, and Optimal Algorithm?
+Explain files allocation techniques with its advantages and disadvantages? Briefly explain
+the directory and its hierarchy. 
+[4+4]
+Explain the importance of device driver in V0 system. Suppose a disk has ffacks
+numbered from 0-180. The disk queue has the following request tracks: 87, 170,40, 150,
+36,72,66, and 15. Suppose the current head is at track number 60, and it hasjust finished
+the request at 54" Find the total head movement for SSTF, SCAN, and C-LOOK
+algorithms.
+[2+6]
+Differentiate between Encryption and Decryption and explain their role in enhancing
+security of the system" What do you mean by Access Conhol List (ACL)? 
+l4+2)
+What are the technical and soft skills that a system administrator must acquire? Explain
+tasks performed for user account management. 
+[,4+21
+7"
+Br*tTi;n"
+J
+5
+Process
+A
+0
+B
+1
+C
+3
+2
+D
+9
+5
+E
+12
+5
+
+--- Page 3 ---
+I
+9. \\1. ''i,:'uld be necessary steps to prevent deadiock? C--onsidering a system with five
+!i--::.--iS P0through P4and three resources of type A, B, C. Resource type A has 10
+it-,s:-'.::s. B has 5 instances and type C has 7 instances. Suppose at tirne tafollowing
+S;:.:.:.,-,t Cf the
+has been taken.
+svstem has been taken.
+Process I 
+Allocation I 
+Max need
+A
+B
+C
+A
+B
+C
+Ps
+0
+1
+0
+7
+5
+3
+Pr
+2
+0
+0
+J
+2
+7
+Pz
+3
+0
+2
+9
+0
+2
+P:
+2
+1
+I
+2
+2
+2
+P+
+0
+0
+2
+4
+J
+)
+a) Calculate Need maffix
+b) Is tb€ state safe to run all the processes? if so, show the safe sequence of process
+execution"
+10- Srrite short notes on: (Any Three) 
+[3x3J
+a) Shell Programming
+b) Critical Section
+c) TSL Instruction
+d) Thrashing
+e) Memory Compaction
+f) Thrashing
+***
+L2+2+4)
+
+--- Page 4 ---
+
+--- Page 5 ---
+TR.IBHUVAN UNIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Csntrol Division
+2081 Bhadra
+Candidates are required to give their answers in their olln
+Attempl All questions"
+The figures in the margin indicate FaU Mat&s
+A.ssume suitable data if necessary.
+i" FIow does operating system provide a beautiful interface to
+doesn't require R.e-mapping o1' resources? Is layered structure
+better than rnonolithic structnre? Explain.
+"lffiRARYi
+user? Why llxo-Kernel
+of operating system is
+2" Why threads are called light weight process? Consider the following
+[] +3+-11
+set of processes,
+[2+8]
+with length of the CPU burst time given in milliseconds.
+Frocess
+Burst time
+*_q_
+__ ?_*.*_
+_ _-t__
+(;
+P5
+All the pr(]cesses are assumed to tiave arrived in order all at time 0"
+(i) Drarv Gantt L'hart Using Fr'-'FS, S.IF schcduling aigorirhm.
+(ii) F'ind aYtrrage lurnaround time and waiting time for each scheduling algorithm.
+Explain abr:ut Lock variable for achicving h{utual lixclusicin. Explain the types of
+semaphore along with the major operations of semaphore rvith a simple Pseudocode. []*-i]
+Explain hcrv a logical address is rnapped to a phvsical addr,-.ss in paging. Florv is vimral
+4.
+memory management done? 
+l4-2]
+-5. tlou' manv pages fault fbr the follo,,l'ing gir,en reference stins tbr ibur-page frames
+0,9,0,1,8,1,8 .7.8,7.1,2,9,2,7,9,r.,2,9,3" 
+L7l
+a) LRU
+b) FIFO
+c) Optimal page
+6. lixplain l-node approach cf files implementation with its advantages and disadvantages. 15]
+7. Consicler a disk drive having 100 cylinders. The head is currently serving request at
+cylinder 43 and the previous request was at 56. The queue of" pending request is
+86,70,13.74,48,9,22,5a30. starting from current head position, what is total head
+movement (in cylinders) to service ihe pending requests of each of following disk arm
+scheduling aigori*rms.
+a) L'CFS
+b) ssTF
+c) SCAN
+d) L0oK
+t6l
+Exam.
+LeveI
+Resul:rr
+BE
+BEI
+iirzi
+FulI Marks
+Pass Marks
+=;ltme
+80
+Programme
+32:,
+J nrs.
+Year / Part
+Subject: - Operating Systems {T 6i 2)
+Priority
+P1
+)
+P2
+6
+P3
+4
+P4
+)
+8
+2
+
+--- Page 6 ---
+8" Iixplain the resource allocation graph with an example. Consider a system with 4
+concurrent processes (P1, P2, P3, P4) and three resource types A, B, and C with total
+instances 7, 10, and 10
+Process
+Allocation
+Maximum Claim
+Af-
+P1
+_._a_
+I
+a) What is ttie total number of avaiiable resources?
+,b) What will be the nee<i matrix?
+c) Is the system safe? if so, show the sa{b sequenc",e.
+9. What do you mean by ACL? How is it different frorn the capabilities iist? I{ow does
+C
+[2+ 8l
+l) t)+41
+t- 
+- 
+'t
+fiorn a
+[4+2]
+r?,11
+t" '- |
+P2
+10
+Caesar Cipher convert plain text to ciphe$ext?
+10.I*'hat arc the roles of a system administrator? IIow is a special user different
+general user? Explain.
+1 I " Write short notes on: (Any 1'rvo)
+a) Compaction
+b) Thrashing
+c) Belady's anomaly
+***
+claim a{ state t6 is:
+B
+B
+2
+0
+3
+5
+0
+0
+2
+5
+0
+5
+P3
+2
+2
+2
+2.
+5
+P4
+0
+4
+0
+0
+2
+
+--- Page 7 ---
+TRIBHI'VAN I.JNIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Controt Division
+2081Baishakh
+l-ngr*:ry-q
+Year /Part
+I
+-!
+J
+BE
+BEI
+iiili
+80
+)L
+i 1,r..
+a
+Candidates are required to give their ans,*.ers in their orlu u.ords as far as practicable.
+Attempt All questions"
+Thefigures in the margin indicate Fall Marks"
+Assume suitable data if necessary.
+t ' trVhy operatjng svstem evol','e over iong periods of tirne? Justify irow OS irct as resource
+manager. 
+tl+il
+Explain fork() atd spa*tr() systenl calls in the oS. Schedule the following set cf process
+according to Rcund-Robin scireduiing a aigorithrn u,ith {Juantum time : 4 ms and
+calculate the average waiting time and average T'urn-around time, tlrycughplt and CpV
+uliiLmtion"
+13+51
+j\hy do we organize clisk as RAI{)? Suppose a riisk drive wiih i50 cylinder numtrered
+from 0-149' ]'he drive is currently serving a requcst at 35 anel the previous request is at
+ciisk 55. The queue of pending requesr ls qs, ioj" 3s, 122. 10, 12g.65, ?5. Srarting frorn
+the cu::rent head position. Caiculaie the total heai inonient (ln'c3,{inder) that thc rjisk arm
+lroves to satisfy ali the penrii,g request fbr ssF. scAN," and LooK nisk Arnr
+Scheduiing Algorithm. 
+i:_61
+a) Explain firsi fit, Next fit fir*morv alrocatio* algor-ithm rvith an e>^ampre. 
+ij,
+b) How semapirore is used in process sl,nclronization? E;<piain hcu, sernaphore is besl
+solution for: producer consumer problem rvith psei:dcr-code of bctir prtcucer a.r,j
+consumer process. 
+:i 
+_ rl
+Whai is file attribute? "I-ist the file systern peribnnanie iniicator. Explain the ijie
+allocation rnethods with its advantages ond di*udr-*rtug;r. 
+' L'1v1+!1r rrrL ir 
+I i *l _ j r
+what are lhe dif;'erences beF.rreel fixed partitioning and varia-bie parr;.tioning system of
+memory irrr multiprogramrning? Given r*ibr*,r." to iire tbrtowirg d;;.';;';;:";;;,' 
+'
+0,9,0, 1,9, 1,8,7,9,? ;l "2"g,2,7,g,2,3,g,3
+F{ow many page faults wilr occur if the program has 4 iia:rres rbr optimal page
+R.eplacemeni Algorithm? 
+^vr v'L*,dr rilg 
+f3 i 5j
+J"
+4"
+c-).
+6.
+UigRARY
+Process
+Anival time
+CPU time (ms
+A
+0
+12
+B
+2
+6
+5
+-_;
+D
+10
+Exam"
+Back
+Level
+Full Marks
+Pass Marla
+I tme
+
+--- Page 8 ---
+7. Explain necessary conditions for deadlock. Consider the following snapshot of a system
+fP: Process, R: Resource):
+tsy using Banliers algoritlln, Calculaie the need matrix" Is the system safe? If safe llnd
+sate order ofprocess.
+Describe the role and responsibilities oi- svstem admin-strator to keep the system upclated
+anrl efficient. Explain r*.ith exanrples. 
+[$]
+Define ACL. Write the gpe oi seeurii,v breach in fbllolving attack case? Also suggest a
+solrition in each to prer.ent the attack. 
+t 2+2+2.-21
+"Rataesh found that Nirma.l's Farebcok uias login in Computer i,ab. I{e thcn cliangecl the
+personai in-formiition anci iogin credentials o.fNirmal,s a.ccount.'.
+i0. \['rite shcrt notes on:
+4 Osti'ich aigorithrn
+b) Shell prograrnrning
+c) Pr*cess c*atrol Block
+[3x3]
+i2 +61
+Maximum Demand
+RA
+RB
+RC
+RD
+PO
+)
+I
+4
+P1
+0
+I
+2
+pz
+5
+1
+0
+5
+P3
+t
+?
+0
+P4
+3
+0
+-\n
+PR
+RC
+RD
+8
+5
+9
+7
+Current Allocation
+RA
+p.3
+RC
+ITD
+PO
+1
+t.)
+1
+1
+P1
+0
+I
+)
+1L
+P2
+4
+0
+n
+3
+P3
+I
+)
+I
+0
+P4
+3
+t,
+
+--- Page 9 ---
+I'iTIB}iiJVAN t-JN IVEI(SI1'Y
+INS I I I t.rl l: OI- I;N(ilNl:t:RING
+Examination Control Ilivision
+2080 Rhadra
+FulI Marks ! 80
+i Year / Part i III i I
+L_-_,._-,....-__-..,-......---,--,-. i.."-,-----,
+Subject: - Operating Systems (r 612)
+Candidates are required to give their answer:s in their o
+Atterupt All ques t io rts,
+The fisures in the nrut'gitt tndicute fdftlg,"lS
+Assume suitable riata if nec,essary.
+1" \Vhat is an Operating s.vstem? Explainthe siatement " operatiug system acls as a Broker
+between hardrtare and application progrant". 
+[-i]
+2" \\/hat is 1:riurit,v of a process? \\/h-v do rve need it? Irxplain. Make a scheciule lor the
+processes ment;oned in the tabie belor'v as per Shorlest Re*raining Time First (SRTir)
+algorithni. Aiso calculatc average turniu'r:und time and average waiting time, tittougliout
+and CPU utiiization" 
+[2-6]
+Pr occss
+Burst Time
+A":ty4
+__ !"
+__l
+2
+Pr
+a)
+Pz
+6
+P:
+1
+P+
+4
+J
+P5
+2
+4
+What are the piinciples of I/O softlvare'/ Suppose that a disk drive has 100 cl4inders,
+nurnbercd 0 to 99. T'he clrive is currerrtll,'setving a iequest at cylindcr 43 and previous
+request $'as at cylinder 25. The queue of pending rcquest, in FIFO order is.
+86,-J0,13,74,48,9,2'2,50,30. Produce tire schedules ti; satislv a.ll the pending requests tbr
+each of the follorving disk scheduiing algolithins? 
+[2+{r]
+a) FCFS h) C SCAN
+a) Explain Best fit and V/orst fit memory allocation algorithm rvith an example. 
+15]
+b) What is the need process synchronizalirrn? i-lorv can the semaphore solve tlie reader-
+writer problem? Explain with respectir,e pseudo-code of both rea<ler and writer
+KIBRARY
+4.
+process.
+What is direciory organization in files? I:xpiain its types.
+What is Beiad"r"s:rnarnaly in F1]r0? Clonsiiiei the iblloriing page reference strings;2.
+1,4,2,1,i.5,4.1,1 ,\,1.4.5.0.1.ri,2.I:ind hox, man-v' page faLrlt occur according to OPf IMAL.
+LRU (ieast recenlly used) and LFIJ (least ti'equentl,v used) page teplacement algorithm
+assuming -1 page frames. 
+[1f 7]
+12+61
+IB]
+5.
+6"
+Priority
+3
+5
+2
+1
+4
+
+--- Page 10 ---
+i. ConsiCer a system with.5 concurrentprocesses (P0, P1, P2, P3, P4) and4 resource lvpes
+( R0, R"1, R2, R3l. l-he numlier of instances of each resoulce type in the system are
+6-4.4,2 respectively. Ailocation table ancl N4axinium claim table are as folkrr,r,s:
+Maximurn claini
+a) Calculate Need matrix as per Banker's algorithm.
+b) Is the state safe? Ifso, showthe safe execution ofthe processes.
+8" \\4rat are the roles and responsibilities of syslem administrator? 
+L6l
+9" Explain the types of Network Attacks? What is ACL? Why'HASH' function is called
+Message Digestor? 
+L2+2+21
+10. Write short notes on: 
+[3x3 ]
+a) Tkashing
+b) Virtual Machine
+c) User ievel thread vs Kemel- ievel thread"
+***
+t8l
+RO
+Ii1
+R2
+R3
+PO
+2
+0
+i
+1
+P1
+1I
+1
+0
+0
+P2
+1
+1
+0
+0
+P3
+i
+0
+1
+0
+P4
+0
+1
+0
+1
+Allocation
+R(]
+R1
+R2
+R3
+PO
+)
+a
+I
+1
+P1
+2
+0
+2
+P2
+l
+I
+2
+0
+P3
+J
+a
+1
+0
+P4
+7
+i
+0
+1
+
+--- Page 11 ---
+]'RIBiI T] \/ AN IiNl VHtS ITY
+INSI'i l'Ul'E OF' IINGIN IrE RING
+Exarnination flontrol Division
+2080 Baishakh
+l. a)
+b)
+2" a)
+I Exam.
+!9vel
+I'rcgramme
+!'c11"i Pllt 
+-
+Full Marks
+; Pass h'Iarks
+: Time
+80
+i2
+i tr.J.
+Subje t:t. - Operatin-g System ({:7' 6t 2)
+Candiciates are req,:iled to give tireir rnsrvers in their
+/ ttempt A!! qtr e s t i o n s.
+T'he figurc,s in the tnargin intlicate {ull tr'larks.
+Assu.me sttitabie duttt if necessury
+Explain OS as an Extended N4achine. Differenriate betr,,.een Monolithic Kernel and
+L4icro-i(emel. 
+[2+4]
+Explain operating systcm as a virtrral Machine" 
+L4l
+l)iffcrentiate betu'ccl Prcemptive and Non-Preemptive ScheCuling" App11 \ILe
+schetluling ibr foliox'jnq sct oiprocesses oltu,o queires Qi and Q2 u,here Prioriri'of
+Q1 is gieatcr than that oi'(12 and Q1 uses Rounri Robin (Time Quantum = 2) and e2
+uses F'CI'S.
+BT
+l*- r_+ _=Lql q__L__ I _ __J
+Construct Gantt -Chart and compute average TAT for above scenario.
+b) What is multiilueading? Iixpla.in hr,e state process mociel ,.r'ith figure.
+3. a) trVhv process ueed to be svnciuonizeil? Explain Peterson's Solution in
+cxclusion.
+b) What is Sentaphore'l IJo-'v can Producer Consumer problem be solyccl
+Semaphore? Explain.
+4. a) \\,'hy multilevel paging is required?
+b) Consider the foilowing page relerence string: 5,A"2,1,0,3,0,2,4._i,0,3.2,1,3,0,1,5
+Calculate page hit percentage. How rnany page faults wouid occur fcr the FIFO,
+Optimal, I-irli and LRIJ replacement aigorithms having four ftames? Remember all
+frames are initially cmpty, so your first unique page will cost one fault each. 
+tg]
+5. What are the different mctliods lor allocating disk spacc for file? Explain ftee space
+managemcnt lecirniques. 
+il+ 7l
+6. What are the functiotrs of device indcpendent I/Q softrrare? -{uppose that a disk has 5000
+cyiinders, numbered ftorn 0 to 4999. The <lr'ive is currentll,'scnir:g a request at crvlinder
+i43. and the pre.,,ious rcquest \,,.as at c,vlinder 12j. I'he queue olp.cncling requests in FIIC
+order is:
+86, 1470.9 1 i,177 4,918,1 509. 1 022. I 750,1 30
+Starting ftom the current head position, what is the total clistance (in cylinders) that the
+dir;k arm moves to satisfy all the pending requests, fbr FCFS, ssl"F, c-scAN and
+C-LOOK Algorithm? 
+f2+Sj
+12+41
+t4l
+mutual
+12t3l
+r.rsing
+u+41
+121
+P3 l:
+!"lB['.hRY
+Process
+AT
+Orieue Number
+P1
+0
+5
+1
+P2
+2
+12
+2
+-)
+1
+
+--- Page 12 ---
+t
+n
+IJxplain
+Is the state safe? If so, shor,v the safe execution of processes.
+Write short notes on:
+a) Cryptography
+b) Access Control List
+c) Roles of System Admin
+d) AWK Tool
+[3 +7]
+[,4x2"51
+B"
+Colftnan ccnrlitiols for deaiilock" (lonsider tlic follorvi
+Proce.-scs
+Allocation
+Max 
+I Availablc
+ABC
+A 
+B 
+CIA 
+B
+PO
+0
+1
+0 1 
+s 313 
+3
+---*--t
+1, 
+,) 
+)I
+-"'__-__-_--.-. -._-.. . _J
+I
+s 
+0 
+2t
+:__ 
+__-_..___----...__.1
+''t 
+1 
+nl
+I
+4 
+3 
+3l
+Pi
+L
+0
+0
+P2
+)
+0
+)
+P3
+.}
+1I
+1
+P4
+0
+C
+2
+
+--- Page 13 ---
+TRIBHUVAN UNIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+2079 Bhadra
+Subject: - Operating systems (CT 612)
+Candidates are required to give their auswers in their own
+Attempt Al I question,s.
+The figures in the margin indicate Full Marks
+Assume suitable data if necessary.
+b)
+2" a)
+b)
+1. a)
+Why is the process table needeii in a timesharing s,vstem? is it also needed in petsonal
+computer systems running L|NIX or Windorvs r.vith a single user? 
+t6]
+Distinguish betrveen Shell and Kernel. 
+[1]
+What are the advantages artd disadvantages of implementing th-reads in user space? lll
+Let us consider five processes with given arrival time and length of the CPU burst
+given in milliseconds 
+i6l
+Process
+Arrival time
+CPU time
+P1
+0
+9
+P2
+1
+5
+P3
+2
+2
+P4
+3
+6
+P5
+4
+8
+Calculate the turnaround tirne and rvaiting time for all pi'ocesses applying F'irst Come
+First Serve, Shortest Job first and Round Robin (timc quantum : 3) algorithms.
+3. Define race condition. What are the requirements of rnutual cxclusion? Ho"r, can vou
+achier,e mutual exclusion using Peterson's Solution? Explain with pseudo code.
+4. a) Dillerentiate bet'ween Compaction and Coalescing technique.
+b) Consider a srvapping system in whicli nemory consists of the lbllowing hole sizes in
+mernory order: 10 MB, 4 MB, 20 MB, 18 MB, 7 MB, 9 MB, 12 MB and 15 MB.
+Which hole is taken for successive segment requests of 
+i6 ]
+(i) 12 MB
+(ii) 1t) MR
+(iii) e MB
+for first fit? Norv repeat the question fbr best fit and *,orse fit"
+5. a) Explain various ways of implementing file system.
+b) I'Iow do ,vou measure the file s),Stem performance and horv it can be improved?
+[2+7+61
+141
+I6j
+i-11
+6. What do you mean by RAID? Suppose a disk rvith 200 cylindcrs numbered from 0-199.
+Thc drive is currently serving a request at 45 and previous request was at 125. The queue
+ofpending request is 105, 178,23,67,43,78, 167,56 and 98. Starting from curteni head
+position, calculate the total head movenrent (in cylinder) that the disk arm moves to
+satisfy all pending request for SSTF, SCAN, I,OOK and C-SCAN disk scheduiing
+algorithm. 
+[2'{-8]
+: Fult Marks i 80
+i'f
+i Pass Marks i 32
+LIBRARY
+Exanr,
+Levet
+Programme
+Year / Part
+BE
+BEI
+riiii
+
+--- Page 14 ---
+7.
+Explain in detail how. can detecr deacllock in
+system. with resources A. 13, C, I) and process
+safe execution of processes.
+operating system. Consider the follorving
+P0 to P4" Is the state safe? If so. shorv thi
+8' write short notes on caesar c)ipher and Access control Lists.
+9' what is the significance of system Adrninistration? Describe the roles and responsibilities
+of system administrator in Insurance Compan.v.
+L3+71
+[3+3']
+l4l
+***
+Process
+Max
+Allocation
+Available
+1111_1t:
+A
+B
+C
+D
+A
+B
+C
+D
+PO
+6
+0
+I
+2
+4
+0
+0
+i
+.)
+2
+I
+I
+P1
+1
+7
+5
+0
+I
+1
+0
+0
+P2
+2
+3
+5
+6
+I
+2
+5
+4
+P3
+I
+6
+5
+3
+0
+6
+J
+J
+P4
+I
+6
+5
+6
+0
+1L
+I
+L
+
+
+===== file3.pdf =====
+
+
+--- Page 1 ---
+lIBIITJVAN tJNlVEI{S I1 Y
+lNfi.I.ITt.fE OII ENGINEEITiNG
+Hxmmlimation Coxrtrol llivision
+Zt)8? Chsrirra
+Systenr (Cr 6_16)
+candit{ate s are rertrui,ed tcs giw their ansv,eru irz rheit. o'n y,,{trds *.r.far -, orrr;r;;;;i,;rr-
+Attewpt Alt 11 ues,tiotrs.
+*, , , vata.tt au. LU l4t,ye ,*etF. un'vtgf,g l.Ix {hety olvn u,{lrds *,r.{ar
+Attewpt Alt 11 ues,tiotrs.
+The"figure:; in the ntnrgin inc{icate {Xt! h{art};
+,q.t s' L{n t e s u tt t7 b { e d o t u i,f' ne c e s. s ar);.
+t"
+why do we netd system calls? Explain. Describe hriefly the worlting principle of virtual
+machine.
+2' Hxplain rvhy exo-kernel-d.oesn't require re-mapping of'rssources? Is layerecl strucrule of .
+ope.ating s;,'stem better tha, uronolithic structuier dxptain.
+i3l-al
+IJ. 3,'f;t{i.:::-li::,::pf:::: ilil:1},:f schecruie trre fouowing set or process accorcling
+calculate the iirrerage rvaiti*g rimc ancr averago frrrr-*rourrd ti*re.
+[4-r-6J
+Process
+Arival tinre(ms) _CfU tirre(ms)
+.A
+0
+t2
+B
+2
+6
+C
+5
+D
+10
+9
+wha.t 'u'e the rnajor differences of race condition ancl r]eacllock in problern *f
+syticlurxrization? Iixplain the reacler writer problem rvith its solution using ,*,*apl.,or*. l3-f7]
+What is Virtual Memory? Why do we neec{ it'/ Consicicr the tbllowing page rel'ercnce
+strings; 2,3' 4,2, 1, 3, - ,5^ 4,3. 1. 5, Find rrow many pagcs faurt occur iccording to
+OPlllMAL and LRU (Least Recently tJsed) png* ,*piu**n',*,.,r algorithm assuming 3-
+pageJi'arnes 
+[3,i-5'l
+Explaiu all the u'etys how file system can be impleniented with its trclvantages and
+disadvantages?
+Suppose a disk drive witli 150 cylinrlers numbereel fr"orn 0-i49. The cirive is currentiy
+scrving a reqr:est at 35 and the prerrions reclues[ is at clisk 55. T'lrs queue of pending
+request is 98, i03. -lB, 122, 10, 128, 65,75. Starting ftorn the *.,.r*nt head posititx,
+Calculate the total head montent (in c3,lincler) that the disk arm moves to satisfy all the
+pending rcquest fbr SSFr, SCAI{ and LOOK disk arm scheduling algorithm.
+What is inclefinite postponement? Assr:me that there are 5 processes and 4 types ol
+resource at Tirne'l10, as illusrrated belou'. Check if the syst*m is salle or not?
+Prooess
+Aliocation
+lA,B, {1, Dl
+iVIax
+[A, B, C, Dl
+Available
+lA, B, C, Dl
+PO
+[-0,1,1,0.l
+r0,2,1,0.I
+|1,5,2,0"l
+r1
+[1,2,3,1'l
+i,6,5,2.l
+P2
+11,3,6,5|
+[2,3,6,6J
+p3
+[0,6,3,21
+i0,6,5,?. I
+P4
+[s,0,],41
+r0,6,5,6J
+i ?-F'11
+t-* "I
+[6]
+4.
+5.
+n
+(,
+d.
+l6l
+f l+?l
+I' What arc the roles ancl duties of systern adnrinistrtrtion? [ixplain. What
+'l{ASH' function is caltred fitos;cage digestor']
+10. Write short notes on: (Any frour)
+a) Netwoik Attac:ks 
+Ib) Princinles ol'I1O Snflrrurre
+is ACLT Vlhy
+14.t"2+21
+[4x3 j
+LeveI
+I'ull
+BCT 
+Pnsn ll,{xrtris 32
+Year/Part Itl i ii
+(c) Belady's Anomaly (d) Tharashing (e) Critical Section (f) Ostrich Algorithms
+
+--- Page 2 ---
+:
+INS
+Exam
+IRIB}IUVAN UNIVERSI TY
+OF ENGINEERING
+tion Control Division
+2082 Kartik
+idates are required to give their answers in their own words as far as practicable.
+,/A
+Alt questions.
+in the margin indicate Full Marks.
+suitahJe data if necesrury.
+.M
+is an Operating system? Explain the functions of Operating System.
+why exo-kernel doesn't require re-mapping of resomces? Is layered structure of
+system is better than monolithic structurs? Explain.
+the following processes according to SRTN and Preemptive Priority Algorithm
+average TAT and WT.
+Process
+Arrival Time
+Burst Time
+Prioritv
+PO
+0
+I
+2
+P1
+2
+2
+4
+P2
+4
+12
+0
+P3
+I
+4
+3
+P4
+12
+10
+I
+process with the lowest value has the highest priority.
+mutual exclusion and raoe condition. Explain the concept of a shared-lock
+I)iscuss the role of sleep$ and wakeup$ calls in managing concurency control
+the context of the Bounded-Buffer Problem.
+Fiie. Describe the implementation of a file system using linked Iists and i-nodes.
+the following page reftrence strings: l, 2, 3, 4, l, 2,5, t, 2n 3, 4, 5. Find out
+of page hits for FIFO and Optimal and LRU page replacement algorithm, Assume
+frames = 4.
+alout the direct memory accsss. suppose that a disk drive has 100 cylinders,
+0 to 99. The drive is currently serving a reque$t at cylinder 35 and previous
+was at cylinder 20. The queue ofpending roquest in FIFO order is 86,7A,lS,?4,
+9,22,50,30. Produce the schedules to satisfy all the pending requests for each ofthe
+disk scheduling algorithm,
+C-LOOK
+SCAN
+C.LOOK
+Protection Domain and Protection Matrix. What design considerations must be
+into account to ensure security in a computer system?
+a system administrator. What are the key technical and soft skills required for
+e pursuing a career as a system administrator?
+[1+4]
+t2131
+t71
+LT+Z*41
+il+5J
+16I
+[3.f61
+[4+4I
+n+51
+i
+Suhiect:; Operatlqg System (ff656)
+l.
+.|
+3.
+Exam.
+I-svtl
+Programme
+Year / Part
+tsack
+BE
+BCT
+iii t I,i
+Full lVlarlc
+Pass Marks
+ti**
+80
+32
+i trs.
+
+--- Page 3 ---
+P2,
+deadlockcanbeprevented?Considera-systemvt/ith5concurrentplocesses(P0,Pl'
+i,p+ranf alesol1 
+;if'mH'*H
+rce tYPe in the systslr
+r are as follows: 
+*..*-F+-i-:-
+Allocaton
+[2+8J
+[3x3]
+a)
+b)
+Create need matrix"
+Is the safs state? Ifso' show the safs execution ofthe processes'
+ite short notes on: (AnY Tlrree)
+PrinciPles of UO Soft.ware
+Process Conffol Bloct<
+BeladY's AnomalY
+'Itrreads
+10.
+!*:l *
+Process
+RO
+RT
+R2
+R3
+RO
+R1
+R2
+R3
+0
+0
+2
+1
+0
+PO
+0
+1
+t
+1
+6
+5
+2
+P1
+1
+2"
+.,
+1
+'2
+3
+6
+6
+P2
+i
+3
+6
+5
+6
+3
+2
+0
+6
+5
+2
+P3
+0
+5
+6
+P4
+0
+0
+1
+4
+0
+6
+
+--- Page 4 ---
+, _,::::::_:: _:::_ . ;; 6d;1's s#*, ( ci ;i;t-
+./ candidates *" ;;;;;r;;;ffi;;#;;;r;;;ffi 
+; ;;;;;;;.
+\/ Attempt f!!questions.
+,l Thefigures in the margin indicate lull Marhs.
+{ Assume suitable dota if necessary.
+1. Define operating system. Justify the statement 'ooperating
+manager as well as virtual machine',.
+TRIBHUVAN UNIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+20Bl Ashwin
+system acts as resource
+u+41
+2, What do you understand by program and process? Also describe 7- state model of
+process.
+tsl
+3. What is the rationale behind defining the quantum for Round Robin scheduling
+algorithm? Explain. Make a schedule for the prbcesses mentioned in the table below ai
+per Round Robin scheduling algorithm (quanturn size = 4 millisecond). Also calculate
+average turnaround time, average waiting time, CPU utilization and throughput. 
+[3+S]
+Process
+Burst Time
+Arrival Time
+A
+3
+0
+B
+7
+I
+C
+2
+2
+D
+5
+J
+E
+I
+4
+4. Wrat is TSL instruction? Why it is used? Explain the types of semaphore along with the
+major operations of it with a simple pseudocode. 
+U+2+5J
+5. Differentiate between intemal fragmentation and external fragmentation. Consider the
+followingpagereferences as, 7 012 0 3 04 23 03 21201 7-0 l. Caiculatethenumber
+of page faults according to Optimal and LFU page replacement algorithms by assuming
+3-page fraines. 
+[4+6]
+6. Vfhat is File System Layout? Explain with figure. Explain about Linked List Allocation
+with Table file implernentafiontechnique with its advantages and disadvantages. [4+6]
+7. Suppose a disk drive-with 150 cylinders numbered from 0-149. The drive is cur-rently
+serving a request^at !5 and the previous request is at disk 55. The queue"of pending
+request is 98, 103, 38, t22, 10, 128, 65, 75. Starting from the c,roerrt head position]
+calculate the total head moment (in cylinder) that the disk arm moves to satis$ aU th;
+pending request for SSTF, SCAN and LOOK Disk Ann Sche<luling Algorithm. 
+t6l
+8. What is deadlock and livelock? Explain, how deadlock can be recovered. A system has 2
+process and 3 resources. Each process need maximum of two resources, is deadlock
+possible? Explain. 
+p+3+41
+9. Explain the types of Network Attacks.
+Message Digestor?
+10. Write short notes on:
+What is ACL? Why 'HASH' function is called
+a) Roles and Duiies of System Adrninis&ation
+b) Principles of V0 Software
+c) Linux
+13+2+21
+[3x4]
+fi$
+Programme BCT
+Pass Marlg
+32
+Year / Part iii iii
+***
+Exam.
+liirr:k
+Level
+
+--- Page 5 ---
+TRIBHUVAN LINIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+2080 Ashwin
+PP
+BCT
+fii r ii
+.Squ vry$
+Pass Marks
+...*:. . .. -. ..
+Time
+Il.
+I
+tsI
+tsI
+t5l
+Sy$ff| - oBgrttilg sy$ry (9r 6s6). .
+Carrdidates are required to give their answers in their own words as far as practicable-
+Attenryt AII q'uestions.
+Thefigures in the margin indicate {ull Marks.
+Assume suitable data if necessary.
+Without operating system, p digltal machine is so called as dEad gnachine. X/hy? Briefly
+describe about different sfructure of operating systeml 
+t5]
+How nurltiprogramming helps to increase performance of the system? Explain system call
+with example.
+3. Define process. Describe the various states of process. How signifrcant is process
+hierarchy?
+4. Find the average waiting time and average tumaround time using:
+FCFS, SRTN, RR.(TQ:2)
+Process
+P1
+P2
+P3
+P4
+Anival Time
+0
+1
+4
+6
+Brirst Time
+J
+6
+4
+2
+5. f)efine Race Condition. What are the requirements bf rnutual exclusion? Solve producer
+cons+mer problem using semaphores. 
+[10]
+\
+6. Why Associative memory is calied content addressable memory? Write the difference
+between Coalescing and Cornpaction. 
+l.l+2)
+7- How second chagge page replacernent algorithm improves FIFO page replacement
+algorithm? Consider the following page reference Strings; 2,3, 4, Z, 1,3,'1,5, 4,3, 1, 5.
+Find how many page fault occur according to OPTMAL, LRU (least recently used) and
+LFU (least ftequently used) page replacerpent algorithrn assuming 3 page frarnes, 
+.[2+5J
+8. What is Inode? Why it is superior to other file allocation approaches? Consider 20-GB
+disk with B-KB block size. How much memory space will be occupied if contiguous, and
+file allocation table is used for file allocation. Assume that each FAT entry takes 4 byte. 
+I5l
+9. What is meant by file attributes? Discuss any one technique of impiernenting directories
+in detail. 
+tsl
+10. Suppose a disk drive has 2000 cylinders, numbered 0 to 1999. The drivq is currenfly
+serving a request at cylinder 134 and the previous request was at cylinder I24. Thequeue
+ofpending requests in FIFO order is 86,1470,9L3,1774,948, 1509, 1022,1750, L30
+Starting from the current head position what is the total distance that disk artu moves to
+satisfy all the pending requests for each of the following disk scheduling algorithms? U0]
+i) FCFS (i0 SSrF (iii) SCAN (iv) C-SCAN (v) LooK
+11. Write four necessary conditions of deadlock. Consider the following snapshot of a
+Allocation
+Max
+A
+B
+C
+A
+B
+C
+P1
+0
+I
+0
+n
+5
+J
+P2
+2
+0
+0
+2
+)
+P3
+3
+0
+9
+0
+aL.
+P4
+2
+i
+I
+4
+2
+)
+P5
+0
+0
+1
+5
+J
+)
+system.
+[4+6]
+
+--- Page 6 ---
+List the available number of resources be given by available vectors as (10, 5, 7). IJse
+Banker's algorithm to clairu that the sybtem is in safe state and show the safe sequence.
+12. Differentiatti between authentication and authorization. List and explain about different
+types of security threats.
+t 3- what are the roles of system administration for an organization? Explain.
+*{.rf
+tsl
+I5l
+!!i
+
+--- Page 7 ---
+TRIEHWAN UNIVERSITY
+INSTITUTE OF ENGINEERING
+Exanrinatio,n Control Divisio n
+2079 Ashwin
+Pass Marks 32
+1
+2.
+. ".... _" "Fx "il yg_t ; _o_p:qr*ii 3B-: gysles (cr 6s6)
+Candidates are required to give their answers in their own
+as practicable.
+Attempt 4llquestions.
+Thefigures in the margin indicate Full Marks,
+Assume suitable data if necessary"
+What is the purpose of a system call in an operating systern? Describe the impact of
+underlying hardware architecture on structurc of operating systems frorn evolutiomry
+perspectives.
+What is a periodic task? Manage the scheduling of following real time tasks as per
+Earliest Deadline First (EDF).
+Task
+Execution time
+Period
+TI
+0.9
+2
+T2
+2.3
+5
+Whal is priority of a process? Make a schedule for the processes
+below as pel Shortest Remaining Time First (SRTF) algorithm.
+tumaround time and average waiting time.
+Process
+Execution Time
+An'ivalTirne
+Pr
+3
+0
+Pr
+6
+I
+Pr
+1
+2
+P+
+4
+3
+Ps
+2
+4
+4. What is race condition? Define semaphore and mutex. Solve Dining philospher problem
+using semaphore.
+5. What is page fault? Consider following page reference string:
+7,0, l,2, o,3, o,4,2,3, o,3,2
+with 4 page frame. Find number of page fault in LRU. FIFO,
+algorithm.
+a
+mentioned in the tabie
+Also calculate average
+[3+s]
+12+41
+12+41
+12+4+41
+7. Suppose a disk drive with 150 cylinders numbered 0-149. The drive is currently serving a
+request at 35 and previous request was at 120. The queue ofpending request is 98, 103,
+38, 122,10, 128, 65, and 75. Starting from the current head position, calculate the total
+head moment (in cylinder) that the disk arm moves to satisfy all the pending request for
+SSTF, SCAN, C-SCAN, LOOK and FCFS disk arm scheduling algorithm. 
+[10i
+6. Describe different file allocation methods. Explain free disk space
+example.
+8. What is {eadlock? Explain the essential condition for deadlock. How O.S.
+deadlock and what does it do after defection?
+g. What is a hap doer? Explain the firewalls and access control list.
+I0. Write short notes on:
+Duties and responsibilities of System Administrator
+Tluashing
+Qpnrrritrr qtfqolt onr:l itc f.rnea
+Optimal replacement
+12+61
+management with
+t6l
+detects
+l2+2+41
+12+41
+a)
+b)
+[3x4]
+Level 
+BE 
+X'ull Marks 80
+Year / Part III / II 
+Time 
+3 hrs.
+
+--- Page 8 ---
+i;".f***- BE "--- -: fu!LM*I!H-.-"qg
+Programme Bcr 
+_--fyil$#,;3
+Year lPart
+TRIBHUVAN UNIVERSITY
+INSTI-TUTE OF ENGINEERING
+Examination Control Division
+2079 Jestha
+,/ Candidates are required to give their answers in their own words as far as practicablo.
+/ Attemptlflquestions.
+I fn, iSr,G i" the margin indicate Full Marks'
+{ Assume suitable data if necessary.
+i. a) What is an Operating system? Explain the functions of Operating System'
+b) Explain why oxo-kernel doesnot require re-mapping of resourcss. Is layered structure of
+' operating ryrt.* is better than monolithic structure? Explain,
+z. ai oifrerenle between process and thread. Explain how multi-threading provide better
+' ' solution than single thieading solution'
+b) Schedule the foll,owing set of process according to HLRN and Round-n9fin slheduling a
+-/ 
+algorithrn with Qr-lanta=m timo-= 4 ms and calculate the average waiting time and averago
+Turn-around time.
+Process
+Arrivaltime (ms)
+CPU time (ms)
+A
+0
+t2
+B
+2
+8
+C
+D
+10
+9
+u+41
+12+31
+[1+3]
+t6l
+3.a)WhatisraceoonditionandMutua1Exolusion?ExpIainhowsleep()andWakeup()
+solution is better than busy waiting solution for critiial seotionproblem' 
+[2+3]
+b) What is TSL? Why it is used? Exptain th: typ.". of semaphore along with the major
+-' 
+operations of u**uptore with a simple Pseudocode 
+[l+1+4]
+6.
+4. a) What is Associative memory and Thrashing? Write the difference
+and ComPaction. '
+5. what is file attribute? List the File system performance indicatsr.
+technique is most appropriate for "tape storage"?
+b) What is Demand paging? Consider the following page reference Stings:
+-/ 
+2,3,4,2,1.13,7,,5,4,3,1,S. iiilO Io* *uny page fault occur.accofling to OPTII{AL, LRU
+cki'ii't*,t1yu'*a)andLFU(teast..fr-iquent1yused):pagoreplacement.a1gorithm
+usru*ing l'fage frames. 
+[t+5]
+Explain the file allooation
+which file organiZation
+[1+2+6+1]
+Suppose a disk drive with 150 cylinder numbered from 0-149. The driveis currently serving a
+iri,iJtut 35 and the previous requ-est is at disk 55. The qugue 9{ Rendine riquest is
+g;i]i01,g8,rzl,l0,t1&,S{?5. Startinf from the ourrent head position. Calculate the total head
+;;;i 
+1in cytinaeij tfrar the disk-arm moves to satisfy att ttre pending request for SSF,
+What is Deadlock and livelock? Explain the necessary conditiohs for deadlock and Explain
+irow aeadlock can be handled? Explain in brief about banker's solution for deadloct^ - ^,
+avoidance. 
+Vl+6+21
+'between Coalescing
+ll+l+21
+is ACL? Why 'HASH' function is called 
+Z+l+Zl
+[2x4]
+7.
+8.
+q
+Explain the types of Network Attacks? What
+Message Digestor'?
+Write short notes on: (AnY Two)
+a) Roles and duties of System Adminisration
+b) Prinoiples of VO Software
+c) Proteotion Matrix
+Exam,
+Illcli 
+' 
+.
+d) Monitor
+e) Belady's Anomaly
+
+--- Page 9 ---
+i
+TRIBHUVAN TINTVERSITY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+208I^ Chaitra
+Full Marks
+Pass Marks
+fi-u
+80
+]2
+: t,..
+1.
+2.
+,&'rie!-qryel
+tr
+4.
+5"
+Explain ail ihe ways horv
+rtisadvantages. Also suggest
+"tape stomge" ancl why?
+7. Explain the types of Netv,'ork,\rtacks'/ What
+Message I)igestor?
+hle systern can be irnplemented rvith its advantages arrd
+which iile organization teclinique is mosl appropriaie for
+L6+21
+is ACL? Why'HASH' function is called
+13+2421
+Swbject: - Operating System {Cr 656)
+Canclidates are required to give their an-sv,ers in their ou,n wards a.s far as practicable"
+manager f,or c,riticai resotuces like LlPll. memory and storage in a i:omputer s;-stem?
+Explaiir. 
+[3i-4]
+Schedule the follr:u'ing set of process accordir-tg to F{RR}{ and Round- Robin scheduling
+algorithm with Quantum time : 3 ms iind caiculate the average viaiting time and average
+tunr-arounrl time. 
+tgl
+3. What do you mean by TLB? Consider the following page references: 
+12+61
+0 1 8 7 0 3 1 0 2817 3 I0 I 8 7 0 3
+Norv, Calculate the number of page fauits according to Optimal, F-IFO and LRIJ
+algoritlrms. Assume available frames : 3.
+hnagine tno prcgrams are racing to print somelhing orr thc screen. What happen if they
+don't ta-ke tums properly? Explain. Solve dining phiiosopher proble.m using anv cne oi.
+the technique tilh its pseudocode. 
+[4+6]
+;\ program uses i2GB ol memory, exceeding the 8GB RAM of host maohine. llow rloes
+the OS manage its executir:n? Explain. Suppose a oisk drive rvitii 150 cylinders numbered
+tiom 0-149. 'trlle Cri.,'e is curreltly serving a request at 35 and the previous request is at
+rlisk 55" The queue of pending requsst is 98, i03, 38, 122, 10- 128, 65,75" Starting frorn
+the current head position. Calculate the total head mon-rent (in cylinder) that the disk arm
+nio\ies to satisfu ail the pending reqlest for SSF, SCAN and I-OOK Disk Alm Scheduling
+Algoriihm. 
+[3+6]
+Attempt All questians.
+The.figures in the margin indicale {Un,Mar&g;
+Assume suttable data i-i necessary.
+Process
+LlPi-l time (ms)
+A
+12
+B
+2
+I
+C
+1
+i)
+9
+Exam.
+,' 
+Resular
+Level
+BE
+Programme
+BCT
+Year / Part
+mlu
+
+--- Page 10 ---
+o6.
+What are the necessary conditions for deadlock and hau' deadlock can be handled?
+Explain. Consider a system with 5 concurrent processes ('P0, Pl, P2, P3, P4) and 4
+resource types (R0, Rl, R2, R3)" The total nurnber of instancss of each resource type in
+the system are 3,17,16,12 respectively" Alic,cation table and maximum ciaim are as
+fbllows: 
+l3+Bi
+a) Create need matrix.
+b) Is the safe state? Ifso, showthe safe execution ofthe processes.
+Write a comparative note oc: (Any Three)
+a) Batch OS vs. Real-Time GS
+b) Processvs. Thread.
+c) Programmed LiO and Intemrpt Driven I/O
+d) Roles and Duties of System Administration
+**<
+[3 x4]
+9.
+Process
+Aiiocation
+Max
+RO
+R1
+R2
+R3
+RO
+R1
+R2
+R3
+PO
+0
+1
+I
+0
+0
+aL
+1
+0
+P1
+1
+2
+.l
+I
+1I
+6
+5
+2
+P2
+1
+J
+6
+5
+2
+J
+6
+6
+P3
+0
+4.
+J
+a
+0
+6
+5
+2
+DA
+t-
+0
+0
+1
+4
+0
+6
+5
+6
+
+--- Page 11 ---
+'IRIB}]UVAN LNIVERSITY
+INSTI]'UTE OF IINGII.IEERII.{G
+Examinatisn Control Division
+2080 Chaitra
+lull $^1,rks
+Pass Marks
+;:- -
+I Ime
+"_q-0, "
+)z
+3 hrs.
+Candidates are required to give their ansu'ers in their orry:r words as far as practicabie.
+Attempt A$,questians.
+The figures in the margin indirate {ull Mqrlts.
+As sume suitable data i"r ns. rt trrr.
+1
+Define Operating System. What is the purpose of a system call in an operating system?
+Explain" 
+[1*3]
+Explain why exo-kernel doesn't require re-mapping of resources? Is layered structwe of
+operating system is better than monolithic structure? Explain. 
+[2=4j
+Explain Context Switching with an example. Consider the following set of processes with
+length of the burst time given in millisecond. 
+[2+g]
+An"ival Time
+J
+6-"
+S/ith the given information, draw the Gantt Chart and calculate the average waiting
+time(AWT), average turnaround time (ATAT), CPU Utilization and throughput forthe
+i) Round Robin (RR) (Quantum Time:2)
+ii) Ilighest Response Ratio Next (IIRRN)
+4. What is Critical Section Froblem? Explain. IIow can solve "Prod*cer Consumer
+problem" using Semaphore? Explain along with pseudocode. 
+{2+6}
+what is nemand paging? consider the following page reference strings;
+2,3,4,2,7,3,7,5,4,3,1,5. Find hcw many page faults occur according to OpTtrMAL, LRU
+(least rece.ntly used) and LFU (least frequently used) page replacement aigorithm
+assuming 3-page frarnes. 
+[1+6]
+Describe F-ile System for operating system. S&y are output files for the printer n6rmaily
+spooled on disk betbre being printed? Explain ho*'RAID levei 1 does differ from RAID
+level0. 
+{4+Z+Z}
+Explain about Prograrnmed VO. Consider a disk queue having 200 cylinders ftom 0 to
+199 with requests for Vo to blocks on cylinders are 23, gg, 132, 42,and 1gT. Assurne
+disk head initially at 100 and a seek takes 5ms/cylinder. How much seek is needed for
+FCFS, SSTF, SCAN, and LOOK disk arm scheduling algorithms? 
+[2+g]
+What are the necessary conditions for deadlock? Consider a system with five processes
+p0 through p4 and tfuee resource types A, B and c. Resource A has 5 instances, B has 5
+instances, and type C has 4 instances. Suppose at time t = 0, following snapshot has been .
+taken.
+rtt 
+I
+^}
+J^
+P3
+5.
+b.
+,7
+I
+6
+8*-
+Exam.
+Recular
+I-evel
+BE
+Programme
+BCT
+Year,/ Part
+IIiIII
+$wt{gct: . Operatilg S}ilteT llr 0.!a)
+Proeess
+ijurst Time
+P1
+4
+P2
+2
+/!
+P-<
+)
+
+--- Page 12 ---
+Process
+Allocation
+Maximum
+Claim
+A
+ft
+C
+A
+B
+C
+PO
+0
+J
+1
+3
+J
+1
+irl
+3
+a
+I
+4
+2
+1
+?2
+I
+0
+I
+1
+1
+1
+P3
+0
+0
+0
+^z
+2
+0
+,t ,,
+0
+0
+o
+I
+0
+CI
+Let the avaiiable number of resources be given by available veetors as (1, 0, 1). k the
+system in safa$tate? If yes, then write the safe sequence. 
+[2+8]
+9. Desuibe how'Access Control List is used. What are the roles of System Administrator for
+change management?
+10. Write short notes on:
+a) Frotection Domain
+b) Compaction and Coalescing
+c) Belady's Anomaly
+[3 +s]
+[3x3]
+
+--- Page 13 ---
+I IiIBI{UVAN LINIVERSI'I,Y
+INSI]I"T ITE O F' EN GINEERI,I.,JG
+Examination Control Division
+2{i79 Chaitr:r
+iPYr'
+I Level 
+i eP 
+; Full Marks i 80 
+I
+i-" -- 
+i 
+i '- 
+-- 'i 
+j
+i Prosramme j gCr 
+i Pass M*rks i 32 
+i
+i. 
+: 
+j- 
+,- 
+r- 
+i
+jYear/Part jIII/ll 
+lTime 
+;l hrs 
+i
+Subject: - Operating System (EX 652)
+,/ CandiCates are required ta give their answers in their or,,r n ords as far as practicable.
+'/ Attenryt,A!!questians.
+{ 
+Tlze figiu'es in the ruargin indicote f4! Mq&t
+{ Assume suituhle data i,l-necessctry.
+1. What is an Operating system? Explainthe statemerrt "operaiing systeln acts as aBroker
+betrveen hardware and appiication program". 
+[1] 4]
+7-. Erplain vr{r,v Exc ken:el doesnot require Re-mapping cf resoruces? Is layered structure of
+cperating system is better than monolithic structure? Explain. 
+12'+31
+3. Wirat information does a process r-.onl"!ol block erontain? \\rrite the rliiference betrveen
+tilead anil process" 
+t5]
+4. ConsitJer fbllorving se1 olprocess witlt givcn anival and C1'{-l burst timc
+Process
+__q__
+i
+A
+Calcuiate the average waiting time for each of process for non-primitive shcrlest job first
+(SJF) and Round Robin Scheduling Algorithms with quantum size 4. 
+t5l
+5. What is race condition and Mutuai Exclusion? Explain how Sleep Q and Wakeup 0
+solution is better than busy waiting solution for critical section problem. 
+[2+3]
+6. Horv semaphore is used in process synchronization? Ilo you think semaphore is best
+solution for producer consumer problem? Explain using it in producer consumer problern. I5l
+7. Differentiate between internai and extematr fragmentation? Suppose that we have memory
+of 1000 KB with 5 paditions af size i50 KB, 200 KB, 250 KB, 100 KB, and 300 KB.
+Where the processes A and B of size 1 75 KB and 125 KII will be loaded, if ,ve used Best-
+Fit and Worst-Fit strategy? 
+ts:l
+8. Explain the types of Network Attacks. What is ACL? Why 'HASI{' function is called
+Message Digestor? 
+t5l
+9. Whal is file attribute? List the File System perfornmnce indicator. Explain the file
+allocation methods with its advantages and disadvantages" Aiso suggest which file
+organization teciuique is most apptopriate for "tape storage".
+[1 +2+6+ 1 I
+10. \\hat is DldA? Expiain ho:v I/O talies place through DMA? Supposc the head of a
+rnoving head disk B,ith 20C tracks, numbcred 0 to 199 is crurer:1i,v serving arequest at
+tracks i43 anci has finished a request a1 track 125. The queue it requests is kept in '.he
+FIFO order 25" 17, 119, 197. 194- i5, i82, 115, 183. \!hat is the tctai movement needcd
+to satisfl, il'rese requests f or the fcrilowing disk-scheduling algc;rithn-rs? 
+[10]
+1i. I{ow unsafe state differs lrom deadicck state'i Consider following initial siate and identify
+rvhethci'requested resource is and granted or denies tbr the given cases. 
+t5I
+Process
+IIas
+Max
+A
+2
+6
+B
+I
+5
+C
+2
+J
+'t-\
+U
+3
+I
+13
+Free Resource:2
+Arrival 'l'ime
+Br.r:"si l-irae
+PO
+u'l
+6
+P2
+4
+P3
+6
+20
+
+--- Page 14 ---
+a) \\,'hat wiltr happen if process A request 1 Resource?
+b) What will happen if prccess D r.equest 1 Resource?
+12. what is deadlock prevention? Explain deadiock preyertion techliques.
+13. \\hat are the strirtcgies 1br memorl'nianagement? Consider the follcr.ving page-relbrence
+string I,2, ,4),1,5,6.2,1 ,2,3,7,6,3,2,1 ,2,-i,6. i-Iow manv page faults wou1c1 occur fol LRU
+and FIFO rcplacemcnt algoritlur: assuming 4 frarnes?
+14. Wirat is group polic,u'-? What can we do with AWK? Explain.
+I5l
+t{1
+t'l
+i5J
+
+--- Page 15 ---
+l-P i ill iUVAN {.it JIV SRSil-y
+I^\!S'il IUl l 1 0F ENGIl.r EERING
+Examin*tion Control Division
+2078 Chaitra
+Subject:
+rati
+(cT (t56)
+Canciidaies are required to giv'e tiielr an-swers in theii o.,r,n
+A tt cmpt Af I quesi iotis.
+The figtu'es in the margin indicate Futt Marks.
+Assume sultable data if necessory.
+1. !/hat is the role of system call in an operating systern? Write down the major tlifterences
+betti"een follorving types o1. operating system.
+a) Batch sysiem
+b) interactive sysiem
+c) Realtinte system
+ri) Time sharing sysien
+Stale 5- State process rnodel . From tbe gir.en followine in
+Priicess
+Burst Time
+prioiitv
+Pt
+10
+3
+Pz
+1
+1
+P:
+L
+3
+P+
+1
+4
+p-(
+2
+2
+nL"
+fbrmation:
+[2+8]
+[2+8]
+i
+Assume the processes arrived in the order pr, p2, p:, p+ and p5 a1l time 0, prioritl, I as
+highest and 4 as lowest.
+a) Draw the gantt chart
+b) Calculate average w'aiting time and average turnaround time for tfue follov;ing
+schedu!ing algorittrm.
+(i) Round robin (quantum= I )
+(ii) priority preemptive
+(iii) preemptive SJF
+(iv) FCFS
+What is critical section problem? Why must the executing the critical section be
+mutually exclusive? Describe how race condition occurs in producer- consumer problem
+and use semaphore to solve it. 
+12+2+6)
+Define page fault and demand paging, Consider Iogical address spaces of eight pages of
+1024 words, each mapprd onto a physical memcry of 32 frames then, 
+14+6]
+a) How many bits are in logical address and physical address?
+b) How paging rvill be done?
+What is the role of ille system? How can files be Implemented? List any three of them
+with advantagcs and disadvantages ofeach. 
+12+6)
+uords as fur as prai
+t=tBRARYI
+
+--- Page 16 ---
+6. R'hat are the principles of L/O software? Suppose that a disk drive has i00 cyiinders,
+numbered 0 to 99" The drive is eurrently serving s yequest at cylinder 43 and previou.,
+request was at cylinder 25. TIie queue of pending request, in FIF0 crder
+is:$6, 70, 13,74,48 ,9,2?,50, 30 
+[2+6]
+Produce the schedules to satisfy all the pending requests for each of the tbllawing disk
+scheduling algorithms: 1. FCFS 2. C-SCAN S. SSff,
+7. 1y{te four conditions for deadlock. Consider the foll
+aU.
+9.
+Let the available number of rescurces be given by avaiiable vectors ar (3,3,2). Use
+Bankers algorithm to claim thai the s1'stem is in safb siate and shorv the safe sequence.
+Describe, hou'access ccntroi list is used? What are the rcles of systern adminisrrator fci
+change managemeni?
+\\irite short notes cn (Any Two):
+i.t Public i:ey crjYptography
+ii) Resc,.uee allocation graph
+iii) Process Vs thread
+[2+t5]
+[4+4]
+[2^4)
+***
+I
+owt
+01 a
+m:
+Process
+Aliocatioi"r
+Itlaximurrr Ciairn
+A
+B
+A
+B
+C
+Po
+0
+I
+CI
+5
+-1
+Ilr
+2
+0
+0
+a
+-)
+I
+I
+Dr
+3
+n
+I
+0
+2
+ft3
+r)
+L
+1I
+I
+z
+2
+2
+F+
+0
+ti
+2
+4
+3
+
+--- Page 17 ---
+TRIBHUVAN LTNIVERSTTY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+2077 Chaitru
+iri;;
+Candidates are required to give tireir answers in their own rvords as far as practicable.
+Attempt All questions.
+The figures in the margin indicate Full Marks.
+Assume suitahle data if necessary.
+What do you mean by Systern call in Operation System? Justify how does OS function as
+Manager. 
+i4l
+What do you mean by Shell? Discuss about Microkemel and Monolithic structuring rryith
+their advantages and disadvantages. 
+t4]
+better
+[1+3]
+1.
+a
+Difference between process and thread. Explain horv multi threading provide
+solution than single threading solution.
+4. Consider the following set of process, with the iength of the CpU burst time and arrivai
+time given in millisecond,
+t6l
+Process
+Arrival Time
+Burst Time
+PO
+0
+)
+P1
+^
+6
+P2
+4
+4
+P3
+6
+5
+P4
+8
+2
+5.
+7.
+Draw Gantt chart illustrating RR (quantum = 2) and highest rank rario nexr (HRN)
+scheduling' Also find average waiting time and average tur-n around time for each of the
+algorithm.
+How does a'race condition'arrive in IPC? Explain the 'sleeping Barber'problem. When
+such problem happen in system? write a solution using any typ. of yorioun technilue
+with pseudocode example. 
+'- 
+[2+2+6]
+What is associalive memory and thrashing? Write the difference betrveen coalescing and
+compaction. 
+[l+1+2]
+]vhat is Demand paging? consider the following page reference strings; 2, 3, 4,2, 1, , 3 ,,1 ,
+5" 4,3, l, 5. Find how many page fault occur according to oprrual, lnu iteast
+recently used) and LFU (least frequently used) page replacement algorithm assuming 3
+page frames 
+[l+5]
+Define file system and list out some attributes of file. Differentiatc between relative and
+absolute pathnames. 
+t3+3]
+lVhat are the disadvantages of Programmed I/O? Suppose that a disk has 200 tracks,
+numbered from 0 to 199. The read I wriie head of arive is curently serving a request at
+track i43, and has just finished tlte requr:i at track 125. The queue of pendlng request in
+FIFO order is:
+86, 147, 91, 177,94, 160, 102, l?5, 130
+Suppose seek takes 1Oms per cyli;,.ir:r mci,trJ. Starting from the current head position,
+what is the total distance that the disk amr moves to satisfi; all the pending request, for
+FCFS, SSTF, C-SCAN and C-LOOK algorithm? Also calcuiate seek ii.,-,. n.id"d to serve
+these request for each algorithm. 
+[2+gl
+a
+9.
+?uaii P,;i : irii ri 
+lfffi 
+--- i-rffi." i
+Reqular
+
+--- Page 18 ---
+l0 Explain in detail how you can detect deadlock in operating system. Consider a system
+u'ith 5 processes P0 through P.l and three resources type A, B and C. Resources A ha^s 7
+instances, B has 2 and C has 6 ins"iances.
+at time CI we have foliowiug Sate:
+Process
+P()
+P]
+P2
+P3
+P4
+[3+7]
+a) Is the state safe? Ifso, show the safe execution ofthe processes-
+b) Suppose P2 makes additional request of (1,0, 1,0), what will be the effoct of this
+request to the system?
+11. Explain the types of Network
+Message Digester?
+12. Write shcrt notes on:
+a) Semaphores
+b) UNIX File System
+Attacks? Vihat is ACL? Why 'HASH, fimction is called
+12+2+21
+[2x5]
+Request
+A
+B
+C
+0
+0
+0
+2
+0
+2
+0
+n
+0
+I
+0
+0
+0
+0
+2
+Ailocation
+s
+
+--- Page 19 ---
+TRIBHUVAN TINIVERSITY
+II\,ISTITUTE OF ENGINEERING
+Examination Control Division
+2076 Baisakh
+Time
+1.
+Sy$_r-q!::_o-pP:"?!i*-e_sx'stems Gr 656)
+Candidates are required to give their answers in their own words as far as practicable.
+Attempt 4ll questions.
+Thefigures in the margin indicate Full Marks.
+Assurne suitable data if necessary.
+a) Define Operating system. Explain OS as resource manager.
+b) Disouss &e properties of batch system and real time system.
+[1+3,]
+t4I
+Differentiate between process and thread. a) Consider the following set of pmcesses,
+arrival time and the lenglh of CPU burst time given in millisecond as betrow:
+Prccesses
+Arival tirne
+Burst time
+A
+0
+J
+B
+1
+5
+\-
+4
+4
+D
+6
+2
+i) Draw Gantt ehart illushating the execution of these procsses using FCFS, SRTN and RR
+(Quantum : 2) scheduling.
+ii) Wbat is the waiting time and Turnaround time of each process for each of the scheduling
+algorithm?
+3. List some differences between inlemal fragmentation and external fragmentation, Define virtual
+memory and explain how it is achieved by demand paging.
+[2+2+41
+4. Define page fault. Why you need page replacement algorithros? How many page fault occurs
+for foliowing given reference string for three page frames: 7,0,1,2,0,3,A,4,2,3,0,3 for
+i) Least Recently tlsed page replacement algorithm.
+ii) First in First Out page replacement algorithm
+iii)Optimal Page Replacement algorithm
+[2+6]
+5. Define directory and file pattr. Explain I node approach of Iile implementation with its
+advantages and disadvantages. 
+[2+6]
+6. What dc you mean by disk arm scheduling? Explain shortest seek first and elevator algorithm
+with their advanthges and limitations. 
+[2+6]
+7. lYhat do you mean by criticat region problem? What requirements should be met by its
+solution? Explain Peterson's solution to avoid race condition. 
+12+2+41
+Define deadlock. What are the conditions for resource deadlock? Exptain some methods for
+[1+2+5]
+recovering from deadlocks.
+What are the security problems assoeiated with OS? Explain ACt with its use .in security.
+t2+6I
+i0. List out some. system administation tasks in OS. Describe the roles aad responsibilities of
+system uA*irrirtrut* with example of each adminisaative task you listed' 
+12+6]
+*:t(*
+with
+[2+EI
+8.
+9.
+Exam.
+B:lcl<
+LeV6l
+BE
+Full Marks
+80
+Programme
+BCT
+Pass Marks
+32
+Year / Part
+m/II
+3 hrs.
+
+--- Page 20 ---
+TRIBHWAN L'NIVERSITY
+INSTITUTE OT ENGINEERING
+Examination Control Division
+2076 Bhadra
+L
+Candidates are required to give their answers in their own words as far as practicable.
+Attempt All questions.
+Thefigures inthe margin indicate Full Marks.
+Assume suilable data dnecessary.
+a) What is an Operating system? Explainthe functions of Operating System. 
+tt+31
+b) What is System Call? Explain the Monolithic and layered Architecture of operating
+system. Explain which architecture is better among them and why?
+[1+2+1]
+2. Define Process and Threads. consider the following set of processes, with arrival time and
+the length of CPU burst time given in millisecond as below:
+Processes
+Anival time
+Burst time
+A
+0
+3
+B
+I
+6
+C
+4
+4
+D
+6
+2
+E
+7
+3
+a) Draw Gantt chart illustrating the execution of these processes using FCFS, SRTN and
+RR (Quantam = 3) scheduling.
+b) Whgt is the waiting time and Tumaround time of each process for each of the
+scheduling algorithm?
+Compare and contrast between monitor and semaphore. Write for solving Dining
+Philosophers' Problem using any one technique at the pseudocode level iUustation 
+[4+4]
+How DMA (Direct Memory Access) increases the system consistency? Suppose a disk
+drive with 150 cylinder numbered from 0-149. The drive is currently serving a request at
+35. The queue of pending request is 98, 103, 38, 122, 10, 128, 65,75. Starting from the
+current head position, Cglculate the lotal head moment (in cylinder) that the disk rm
+moves to satisry a[ the pending request for SSF, SCAN and LOOK Disk Arm Scheduling
+Algorithm. 
+L2+6)
+5. Prepare a comparative note on the followings;
+[4x3]
+a) Virtual memory management using Paging versus Segmentation
+bi File implementation using 'Linked list Allocation with Table' versus l-node
+c) Spooling versus Deadline Scheduling
+6. What is Indefinite postponemerrt? Is it different than dead lock? Write a brief comparisou
+Consider a $ystem with 5 concurrent processes (P1, P2, P3, P4, P5) and four resource
+types ( Rl, Rz, R:, &) and their maximum availability are (6, 4, 5,3) respectively.
+Allocation table and Maximurn claim table are as follows: 
+[4+S]
+I2+4+4)
+J,
+it.r:
+.t\ I
+Rz
+R3
+R4
+p,
+2
+U
+I
+I
+Pz
+I
+I
+0
+0
+Pr
+I
+i
+I
+0
+P+
+I
+0
+I
+0
+Ps
+0
+I
+0
+1
+Allocation
+Rr
+Dr\2
+Rl &
+Pr
+3
+,)
+I
+1
+Pz
+I
+2
+0
+2
+Pr
+1
+I
+J
+0
+P+
+J
+2
+I
+0
+Ps
+2
+I
+0
+I
+MaximumClaim
+Is the system state safe? Ifso show the safe execution ofthe processes.
+Exam.
+Regular '
+Level
+BE
+Fuli Marks
+80
+Programme
+BCT
+Pass Marks
+?,
+Year / Part
+III/il
+Time
+3 hrs.
+Subject: - Operating System Gr 656)
+.]!
+
+--- Page 21 ---
+7. a) What are the security issues associated with OS? Discuss them. 
+t4l
+b) Describe the roles and responsibilities of system administrator, 
+t4l
+8. What is a 'File System' in any OS? What are the major operations required in any file?
+How it is different with'Directory'? 
+[2+2+2]
+9. Write short notes on: 
+[2x4]
+a) Demand paging
+b) Virfual machine
+c) USB Storage
+d) Protection matrix
+
+--- Page 22 ---
+36 
+TRIBHUVAN UNIVERSITY
+INSTITUTE OF ENGINEERING
+Examination Control Division
+2075 Bhadra
+1.
+$. vt-i ss!" : : op sr+!*g s-v.*-qg (c-fff J
+Candidates are required to give their answers in their own words as far as practicable.
+Attempt All questions.
+Thefigures in the margin indicate Full Marks.
+Assume suitable data if necessary.
+Differentiate bstween UO bound process and CPU bound process? ttrhat is proc€ss
+scheduling? Why do we need thread? 
+[2+3+3]
+Define process in OS and explain possible states. Consider the following set of processes,
+with thi length of the CPU burst time in millisecond. The processes are assumed to have
+arived in the order Pl, PZ,P3, P4, P5 all at time 0. [Lowest Number being Highest
+Prioriryl
+Process
+Burst Tirne
+Priority
+PI
+10
+3
+P2
+I
+1
+P3
+2
+5
+P4
+I
+4
+P5
+5
+2
+Draw Gantt chart illustrating priority and RR (quantum = U scheduling. Also find
+average waitingtime and average turn-around time for each of the algorithms'
+3. Consider a disk qusue with requests for I/O to blocks on cylinders 23,89, 132,42, 187 -
+Assurne disk head initially at iOO and a seek takes dmlsec/cylinder. How much seek is
+needed for FCFS, SSF and SCAN disk arm scheduling algorithrns. 
+t8l
+tBl
+Explain inode approach of file system
+disadvantages.
+implementation with its advantages and
+l8l
+7.
+8.
+What are the differences bet*een fixed partitioning and variable partitioning system of
+memory for multiprogramrning? 
+[3+5]
+Given reference to the following pages hy a program:
+0,9,0, 1,8, 1,8 3,8,7,1,2,8,2,7,8,2,2,&,3
+How many page faults will occur if the program has 4 frames for Optimal Page
+Replacement al gorithm?
+Explain private and public key used in asymmetric cryptography' What is'the use of
+ACL? 
+[5+3]
+What is critical section problem? Why must the executing the critical section be mutually
+exclusive? Describe how semaphore can be used to solve the critical section problem- 12+2+47
+What is the significance of system administration? Describe the role and responsibilities
+of system adiinistrator to keep ihe system updated and efficient. Explain with an
+example. 
+[3+5]
+
+--- Page 23 ---
+9. Consider a system lvith 5 concurent processes (P0,P1,P2,P3,P4) and 4 resources types
+(R081,R2,R3). The number of instances of each resources type in the system are G,4,4,2
+respectiYely. Allocation table and Itrlaximum claim table are asfollows: 
+I4+4J
+Allocation
+a) Calculate Need matrix as per Banker's algorithm.
+b) Is the state safe? Ifso, showthe safe execulion ofthe processes
+10. \Vrite short notes: 
+l2x4l
+i) Thrashing
+ii) Shell programming
+***
+Maximum claim
+RO RI
+R2
+R3
+PO
+2
+0
+1
+I
+P1
+I
+I
+0
+0
+,P2
+I
+I
+0
+0
+P3
+I
+0
+I
+0
+P4
+0
+1
+0
+I
+RO
+R1
+R2
+R3
+PO
+J
+?
+1
+I
+P1
+I
+2
+0
+2.
+P2
+I
+I
+2
+0
+P3
+J
+2
+I
+0
+P4
+z
+I
+0
+I
+
+--- Page 24 ---
+
+--- Page 25 ---
+
+--- Page 26 ---
+
+--- Page 27 ---
+
+--- Page 28 ---
+
+--- Page 29 ---
+
+--- Page 30 ---
+
+--- Page 31 ---
+
+--- Page 32 ---
+
+--- Page 33 ---
+
+--- Page 34 ---
+
+--- Page 35 ---
+
+--- Page 36 ---
+
+--- Page 37 ---
+
+--- Page 38 ---
+
+--- Page 39 ---

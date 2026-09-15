@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bhupesh00.github.io/os-ioe/sitemap.xml

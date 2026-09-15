@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Core SEO Meta -->
+  <title>Operating System Exam Question Bank & Solutions | BEI & BCT IOE Past Questions</title>
+  <meta name="description" content="Comprehensive Operating System (OS) past exam question bank with crowdsourced solutions, chapter-wise filter, and progress tracker for BEI students." />
+  <meta name="keywords" content="Operating System exam questions, IOE OS past questions, BEI OS solution, OS chapterwise questions, IOE exam solution" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bhupesh00.github.io/os-ioe/" />
+
+  <!-- Open Graph / Social Media Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="OS Exam Question Bank & Discussion Thread" />
+  <meta property="og:description" content="Practice past Operating System exam questions with step-by-step crowdsourced solutions." />
+  <meta property="og:url" content="https://bhupesh00.github.io/os-ioe/" />
+  <meta property="og:image" content="https://bhupesh00.github.io/os-ioe/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OS Exam Question Bank & Discussion Thread" />
+  <meta name="twitter:description" content="Practice past Operating System exam questions with step-by-step crowdsourced solutions." />
+
+  <!-- Structured Data: Q&A Page Schema for Google Search Engine Dominance -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "QAPage",
+    "mainEntity": {
+      "@type": "Question",
+      "name": "Operating System Past Exam Questions and Solutions",
+      "text": "Chapter-wise Operating System past exam questions, solutions, and mark distributions.",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Browse complete solved past questions categorized by year, session, and course syllabus."
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h1 style="text-align: center; font-size: 1.4rem;">OS | BCT & BEI  </h1>
+
+  <!-- Filter Section -->
+  <div class="card">
+    <div class="filters-grid">
+      <div class="filter-group">
+        <label for="filter-course">Programme / Course</label>
+        <select id="filter-course"><option value="ALL">All Courses</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-session">Session</label>
+        <select id="filter-session"><option value="ALL">All Sessions</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-year">Year / Month (BS)</label>
+        <select id="filter-year"><option value="ALL">All Years</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-chapter">Chapter</label>
+        <select id="filter-chapter"><option value="ALL">All Chapters</option></select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Section -->
+  <div class="card">
+    <h3>Overall Progress</h3>
+    <div class="progress-header">
+      <span id="overall-marks-text">0 / 0 Marks</span>
+      <strong id="overall-percent-text">0%</strong>
+    </div>
+    <div class="progress-bar-bg">
+      <div id="overall-bar" class="progress-bar-fill"></div>
+    </div>
+
+    <h4>Chapter-wise Progress</h4>
+    <div id="chapter-progress-container" class="chapter-progress-list">
+      <!-- Chapter bars populated here -->
+    </div>
+  </div>
+
+  <!-- Questions Section -->
+  <h3>Questions</h3>
+  <div id="questions-container">
+    <!-- Questions populated here -->
+  </div>
+</div>
+
+<script src="./os_exam_questions.js"></script>
+<script>
+  // 1. LOCAL STORAGE MANAGER
+  const STORAGE_KEY = 'completed_question_ids_v1';
+  
+  function getCompletedIds() {
+    const data = localStorage.getItem(STORAGE_KEY);
+    return data ? JSON.parse(data) : [];
+  }
+
+  function toggleQuestionCompletion(id) {
+    let completed = getCompletedIds();
+    if (completed.includes(id)) {
+      completed = completed.filter(qId => qId !== id);
+    } else {
+      completed.push(id);
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(completed));
+    render();
+  }
+
+  // Helper to parse marks strings like "[4 + 4]" or "[6]" into a numeric total
+  function parseMarks(marksStr) {
+    if (typeof marksStr === 'number') return marksStr;
+    if (!marksStr) return 0;
+    
+    // Extract numbers from strings like "[4 + 4]" or "[1 + 2 + 5]"
+    const numbers = marksStr.match(/\d+(\.\d+)?/g);
+    if (!numbers) return 0;
+    
+    return numbers.reduce((sum, num) => sum + parseFloat(num), 0);
+  }
+
+  // 2. RENDER & CALCULATIONS
+  function initFilters() {
+    const courses = new Set();
+    const sessions = new Set();
+    const years = new Set();
+    const chapters = new Set();
+
+    questionBank.forEach(q => {
+      if (q.programme_course) courses.add(q.programme_course);
+      if (q.exam_session) sessions.add(q.exam_session);
+      if (q.asked_year_month_bs) years.add(q.asked_year_month_bs);
+      if (q.chapter) chapters.add(q.chapter);
+    });
+
+    populateSelect('filter-course', courses);
+    populateSelect('filter-session', sessions);
+    populateSelect('filter-year', years);
+    populateSelect('filter-chapter', chapters);
+
+    document.querySelectorAll('select').forEach(select => {
+      select.addEventListener('change', render);
+    });
+  }
+
+  function populateSelect(elementId, values) {
+    const select = document.getElementById(elementId);
+    const defaultOption = select.options[0].outerHTML;
+    select.innerHTML = defaultOption;
+
+    Array.from(values).sort().forEach(val => {
+      const opt = document.createElement('option');
+      opt.value = val;
+      opt.textContent = val;
+      select.appendChild(opt);
+    });
+  }
+
+  function getFilteredQuestions() {
+    const course = document.getElementById('filter-course').value;
+    const session = document.getElementById('filter-session').value;
+    const year = document.getElementById('filter-year').value;
+    const chapter = document.getElementById('filter-chapter').value;
+
+    return questionBank.filter(q => {
+      const matchCourse = course === 'ALL' || q.programme_course === course;
+      const matchSession = session === 'ALL' || q.exam_session === session;
+      const matchYear = year === 'ALL' || q.asked_year_month_bs === year;
+      const matchChapter = chapter === 'ALL' || q.chapter === chapter;
+      
+      return matchCourse && matchSession && matchYear && matchChapter;
+    });
+  }
+
+  function renderProgress(filteredQuestions, completedIds) {
+    let overallTotalMarks = 0;
+    let overallCompletedMarks = 0;
+    const chapterStats = {};
+
+    filteredQuestions.forEach(q => {
+      const isCompleted = completedIds.includes(q.id);
+      const questionMarks = parseMarks(q.marks);
+      const chName = q.chapter || 'Uncategorized';
+
+      if (!chapterStats[chName]) {
+        chapterStats[chName] = { total: 0, completed: 0 };
+      }
+
+      chapterStats[chName].total += questionMarks;
+      overallTotalMarks += questionMarks;
+
+      if (isCompleted) {
+        chapterStats[chName].completed += questionMarks;
+        overallCompletedMarks += questionMarks;
+      }
+    });
+
+    // Update Overall Bar
+    const overallPct = overallTotalMarks > 0 ? Math.round((overallCompletedMarks / overallTotalMarks) * 100) : 0;
+    document.getElementById('overall-marks-text').textContent = `${overallCompletedMarks} / ${overallTotalMarks} Marks`;
+    document.getElementById('overall-percent-text').textContent = `${overallPct}%`;
+    document.getElementById('overall-bar').style.width = `${overallPct}%`;
+
+    // Update Chapter Bars
+    const chapterContainer = document.getElementById('chapter-progress-container');
+    chapterContainer.innerHTML = '';
+
+    Object.keys(chapterStats).sort().forEach(chName => {
+      const stats = chapterStats[chName];
+      const chPct = stats.total > 0 ? Math.round((stats.completed / stats.total) * 100) : 0;
+
+      const div = document.createElement('div');
+      div.className = 'chapter-item';
+      div.innerHTML = `
+        <div style="display:flex; justify-content:space-between; margin-bottom: 4px;">
+          <span>${chName}</span>
+          <span>${stats.completed}/${stats.total} Marks (${chPct}%)</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" style="width: ${chPct}%"></div>
+        </div>
+      `;
+      chapterContainer.appendChild(div);
+    });
+  }
+
+  function renderQuestions(filteredQuestions, completedIds) {
+    const container = document.getElementById('questions-container');
+    container.innerHTML = '';
+
+    if (filteredQuestions.length === 0) {
+      container.innerHTML = '<p>No questions matching current filter criteria.</p>';
+      return;
+    }
+
+    filteredQuestions.forEach(q => {
+      const isCompleted = completedIds.includes(q.id);
+      const totalQuestionMarks = parseMarks(q.marks);
+
+      const card = document.createElement('div');
+      card.className = `card question-card ${isCompleted ? 'completed' : ''}`;
+
+      card.innerHTML = `
+        <div class="question-header" style="display:flex; justify-content:space-between; align-items:flex-start;">
+          <div>
+            <strong>Question ${q.question_number}</strong>
+            <div class="question-meta" style="font-size: 0.85em; color: #666;">
+              ${q.programme_course} • ${q.exam_session} • ${q.asked_year_month_bs} • <em>${q.chapter}</em>
+            </div>
+          </div>
+          <span class="badge" style="background:#e0e0e0; padding:4px 8px; border-radius:4px; font-weight:bold;">
+            ${q.marks} Marks (${totalQuestionMarks} Total)
+          </span>
+        </div>
+        <div class="question-body" style="margin: 12px 0;">
+          ${q.topic}
+        </div>
+        <button class="btn ${isCompleted ? 'btn-completed' : ''}" onclick="toggleQuestionCompletion(${q.id})">
+          ${isCompleted ? '✓ Completed' : 'Mark as Done'}
+        </button>
+      `;
+
+      container.appendChild(card);
+    });
+  }
+
+  function render() {
+    const filteredQuestions = getFilteredQuestions();
+    const completedIds = getCompletedIds();
+    
+    renderProgress(filteredQuestions, completedIds);
+    renderQuestions(filteredQuestions, completedIds);
+  }
+
+  // Safe Application Entry Point
+  function startApp() {
+    if (typeof questionBank === 'undefined' || !Array.isArray(questionBank)) {
+      console.error("Data error: questionBank is undefined or not an Array.");
+      document.getElementById('questions-container').innerHTML = `
+        <div style="color: #842029; background-color: #f8d7da; border: 1px solid #f5c2c7; padding: 16px; border-radius: 6px;">
+          <h4 style="margin-top:0;">Failed to Load Question Data</h4>
+          <p>Make sure your <code>os_exam_questions.js</code> starts with <code>const questionBank = [</code></p>
+        </div>`;
+      return;
+    }
+
+    initFilters();
+    render();
+  }
+
+  startApp();
+</script>
+
+</body>
+</html>
